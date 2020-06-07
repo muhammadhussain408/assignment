@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-1{
+    background-color:rgb(102, 196, 79) !important;
+    color: white;
+    font-weight: bold;
+}
+
+.Selected{
+
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.appear{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.apprience{
+    background-color: grey;
+    }
+.search-box{
+    width: 50%;
+    position: relative;
+    background-color: hotpink;
+}
+.search-box input[ type="text"]{
+    width: 100%;
+    padding: 10px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: burlywood;
+    border: 2px solid #fff;
+    font-size: 18px;
+    color:#fff;
+    outline: none;
+
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.fa-search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.grap{
+    background-color: lightpink;
+    text-align: center !important;
+}
+
+.fa-truck{
+    font-size: 70px !important;
+    margin-right: 10px;
+    color: green;
+}
+
+.themm ,.hashtag{
+    font-size: 70px !important;
+    margin-right: 10px;
+    color: green;
+}
+
+
+
+.card-1 ,.card-2,.card-3{
+    display: flex !important;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.newarrivals{
+    margin: 20px;
+    }
+    .cardd{
+        text-align: center;
+        width: 230px;
+        height:auto;
+        box-shadow: 3px 5px 10px gray;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+ .Card-title{
+
+ }
+ .Card-text{
+     font-weight: bold;
+     width: auto;
+ }
+
+ .btn-primary{
+     background-color: lawngreen !important ;
+     width: 100%;
+     height: auto;
+ }
+
+ .heading{
+     text-align: center;
+     color: lawngreen;
+     font-weight: bold;
+     margin: 40px;
+
+ }
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+.showes{
+    
+}
+
+@media screen and (max-width:600px){
+    .card-1 ,.card-2,.card-3, .cardd{
+        width: 100%;
+    }
+}
+
+
+.lolo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.neww{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    text-align: center;
+    box-shadow: 2px 3px 8px sandybrown;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 125px;
+    height: 200px;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.new{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+
+.footer{
+    width: 100%;
+    background-color: royalblue;
+    height: 50px;
+}
+.footer
+
+{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
